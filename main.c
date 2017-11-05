@@ -6,13 +6,13 @@
 int main(){
 	int i,j;
 	int matriz1[20][20],matriz2[20][20],matriz3[20][20];
-	printf("Dame 16 valores para llenar la matriz 1\n");
+	printf("Dame 20 valores para llenar la matriz 1\n");
 	 for(i=0;i<20;i++){
 	 	for(j=0;j<20;j++){
 	 		scanf("%d", &matriz1[i][j]);
 		 }
 	 }
-	 printf("Dame 16 valores para llenar la matriz 2\n");
+	 printf("Dame 20 valores para llenar la matriz 2\n");
 	 for(i=0;i<20;i++){
 	 	for(j=0;j<20;j++){
 	 		scanf("%d", &matriz2[i][j]);
